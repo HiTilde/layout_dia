@@ -1,8 +1,5 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: 'src',
-  server: {
-    open: true,
-  },
-});
+  base: '/layout_dia/',
+})
